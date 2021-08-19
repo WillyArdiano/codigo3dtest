@@ -1,0 +1,31 @@
+package com.mycompany.co3dtest;
+
+import java_cup.runtime.*;
+
+class Parser;
+
+parser code{:
+
+	
+:}
+
+//terminales
+
+terminal PUNTO_Y_COMA, IGUAL, NUMERO, VARIABLE, MAS, MENOS;
+
+//no terminales
+
+non terminal principal, a, ap, b, bp, c, cp, d, dp, e;
+
+
+a ::= b ap;
+
+ap ::= SUMA b ap;
+ap ::= RESTA b ap;
+
+b ::= c bp;
+
+bp ::= 
+
+
+
